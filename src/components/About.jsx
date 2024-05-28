@@ -6,7 +6,7 @@ function About() {
         <Layout>
             <div>
                 <div>
-                    <img src='jennifer.jpg' alt='My profile image' />
+                    <img src='../assets/jennifer.jpg' alt='My profile image' />
                 </div>
                 <div>
                     <p>Hello, my name is <br /> <span>Jennifer Arabel Jude</span></p>
