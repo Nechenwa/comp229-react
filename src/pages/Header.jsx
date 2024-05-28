@@ -3,6 +3,9 @@ import React from 'react'
 function Header() {
   return (
     <header>
+      <div>
+        <img src='../assets/neche-logo.png' alt='Logo'/>
+      </div>
       <nav>
         <a href='/about'>About</a>
         <a href='/projects'>Projects</a>
