@@ -1,10 +1,13 @@
 import React from 'react'
+import Layout from '../pages/Layout'
 
 function Projects() {
   return (
-    <div>
-      Projects
-    </div>
+    <Layout>
+        <div>
+            Projects
+        </div>
+    </Layout>
   )
 }
 

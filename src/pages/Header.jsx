@@ -5,7 +5,7 @@ function Header() {
     <div>
       <nav>
         <a href='/about'>About</a>
-        <a href='/project'>Projects</a>
+        <a href='/projects'>Projects</a>
         <a href='/services'>Services</a>
         <a href='/contact'>Conatct</a>
       </nav>
