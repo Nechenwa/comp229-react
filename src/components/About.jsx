@@ -4,7 +4,7 @@ import Layout from '../pages/Layout'
 function About() {
     return (
         <Layout>
-            <div>
+            <div className='about-div flex items-center justify-center nowrap'>
                 <div>
                     <img src='../assets/jennifer.jpg' alt='My profile image' />
                 </div>
@@ -27,3 +27,9 @@ function About() {
 }
 
 export default About
+
+
+
+
+
+
