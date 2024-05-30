@@ -31,6 +31,12 @@ body {
 button {
   @apply capitalize h-[40px] w-[100px] border-[1px] border-skyBlue my-5 rounded-md
 }
+input {
+  @apply h-[40px] rounded-md bg-white text-darkBlue pl-2 focus:border-[1px] border-darkBlue mb-2
+}
+label {
+  @apply text-[14px]
+}
 .project-shadow-div {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
