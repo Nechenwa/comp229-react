@@ -27,11 +27,11 @@ function Services() {
       
     return (
         <Layout>
-            <div className='h-[100%] bg-darkBlue'>
+            <div className='h-[100%] bg-darkBlue flex items-center justify-evenly w-full px-8 flex-wrap overflow-y-scroll gap-2'>
                 {services.map((service, index) => (
-                    <div key={index}>
-                        <h3>{service.title}</h3>
-                        <p>{service.description}</p>
+                    <div key={index} className='project-shadow-div h-[280px] w-[250px] flex flex-col items-center justify-start gap-y-2 p-2 rounded-md'>
+                        <h3 className='font-bold text-[20px] text-skyBlue'>{service.title}</h3>
+                        <p className='text-[14px]'>{service.description}</p>
                     </div>
                 ))}
             </div>
