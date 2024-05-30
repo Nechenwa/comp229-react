@@ -18,7 +18,7 @@ function Projects() {
     ]
     return (
         <Layout>
-            <div>
+            <div className='h-[100%] bg-darkBlue'>
                 <h1>My Projects</h1>
                 <div>
                     {projects.map((project, index) => (

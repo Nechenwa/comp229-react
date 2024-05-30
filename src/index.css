@@ -28,14 +28,6 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
-
-
-.layout-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
+button {
+  @apply capitalize h-[40px] w-[100px] border-[1px] border-skyBlue my-7 rounded-md
 }
-

@@ -27,7 +27,7 @@ function Services() {
       
     return (
         <Layout>
-            <div>
+            <div className='h-[100%] bg-darkBlue'>
                 {services.map((service, index) => (
                     <div key={index}>
                         <h3>{service.title}</h3>

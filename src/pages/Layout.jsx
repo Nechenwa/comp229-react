@@ -4,9 +4,9 @@ import Footer from './Footer'
 
 function Layout({children}) {
   return (
-    <div className='layout-container'>
+    <div className='w-[100vw] h-[100vh] flex flex-col items-center justify-between'>
       <Header />
-      <main>{children}</main>
+      <main className='h-[65%] w-[100vw]'>{children}</main>
       <Footer />
     </div>
   )

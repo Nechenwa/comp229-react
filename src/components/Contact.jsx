@@ -26,7 +26,7 @@ function Contact() {
     ]
     return (
         <Layout>
-            <div>
+            <div className='h-[100%] bg-darkBlue'>
                 <div>
                     <h1>Socials</h1>
                     {socials.map((social, index) => (

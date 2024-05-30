@@ -4,13 +4,13 @@ import Layout from '../pages/Layout'
 function About() {
     return (
         <Layout>
-            <div className='about-div flex items-center justify-center nowrap'>
-                <div>
-                    <img src='../assets/jennifer.jpg' alt='My profile image' />
+            <div className='h-[100%]  flex items-center justify-center bg-darkBlue px-20'>
+                <div className='w-[50%]'>
+                    <img src='../assets/jennifer.jpg' alt='My profile image' className='w-[400px] h-[400px] rounded-[50%]'/>
                 </div>
-                <div>
-                    <p>Hello, my name is <br /> <span>Jennifer Arabel Jude</span></p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                <div className='w-[50%]'>
+                    <p>Hello, my name is <br /> <span className='text-[24px] font-bold text-skyBlue'>Jennifer Arabel Jude</span></p>
+                    <p className='my-5'>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                         Voluptates modi, ipsum harum eius eaque illo sit possimus
                         illum quisquam fugiat, tenetur dolorum ducimus doloribus
                         quo molestias? Architecto saepe ducimus aliquid dignissimos
