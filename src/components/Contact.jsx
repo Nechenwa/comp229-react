@@ -6,22 +6,22 @@ function Contact() {
     const socials = [
         {
             name: "Facebook",
-            link: "",
+            link: "https://www.facebook.com/jenniferchichi.nwankwor",
             icon: <FaFacebookSquare />
         },
         {
             name: "GitHub",
-            link: "",
+            link: "https://github.com/Nechenwa",
             icon: <FaGithub />
         },
         {
             name: "Instagram",
-            link: "",
+            link: "https://www.instagram.com/neche_nwa246/",
             icon: <FaInstagram />
         },
         {
             name: "Youtube",
-            link: "",
+            link: "https://www.youtube.com/channel/UC87m2Jh03jx51_Ne468Udog",
             icon: <FaYoutube />
         },
     ]

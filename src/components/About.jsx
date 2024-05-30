@@ -10,14 +10,16 @@ function About() {
                 </div>
                 <div className='w-[50%]'>
                     <p>Hello, my name is <br /> <span className='text-[24px] font-bold text-skyBlue'>Jennifer Arabel Jude</span></p>
-                    <p className='my-5'>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Voluptates modi, ipsum harum eius eaque illo sit possimus
-                        illum quisquam fugiat, tenetur dolorum ducimus doloribus
-                        quo molestias? Architecto saepe ducimus aliquid dignissimos
-                        cum? Ut ea dicta, ab culpa totam facilis soluta excepturi
-                        consectetur fuga omnis et sunt harum vel tenetur quod.
-                        Eos error distinctio id nobis nulla hic accusamus
-                        corrupti soluta, velit, aliquam praesentium veniam.
+                    <p className='my-5'>I am an IT specialist dedicated to developing 
+                    custom tech solutions tailored to unique business needs. 
+                    My expertise spans custom web and mobile app development, 
+                    ensuring engaging, efficient, and cross-platform functionality. 
+                    I also offer cloud solutions architecture to help businesses 
+                    leverage cloud efficiency and scalability, alongside providing 
+                    data analytics and visualization to transform data into actionable 
+                    insights. My work in cybersecurity consulting further ensures that 
+                    all solutions are secure from emerging threats, helping clients 
+                    achieve technological robustness in today's digital landscape.
                     </p>
                     <button>contact me</button>
                 </div>
