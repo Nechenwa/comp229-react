@@ -22,7 +22,6 @@ function Header() {
             <a href={path.path} className={pathname === path.path ? "border-b-[1px] border-darkBlue text-darkBlue capitalize" : "capitalize "}>{path.pathName}</a>
           </div>
         ))}
-
       </nav>
     </header>
   )
