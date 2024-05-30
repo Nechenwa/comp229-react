@@ -16,7 +16,7 @@ function Footer() {
         <div>
           <h1>Subscribe to my Newsletter</h1>
           <div className='flex gap-x-5 items-center'>
-            <input type='text' placeholder='message' className='h-[40px] rounded-md bg-white text-darkBlue pl-2 focus:border-[1px] border-darkBlue'/>
+            <input type='text' placeholder='Message' className='h-[40px] rounded-md bg-white text-darkBlue pl-2 focus:border-[1px] border-darkBlue'/>
             <button className='border-[#fff]'>Subscribe</button>
           </div>
         </div>

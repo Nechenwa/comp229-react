@@ -1,6 +1,14 @@
 import React from 'react'
+import { useLocation } from 'react-router-dom'
 
 function Header() {
+  const paths = [
+    { pathName: "about", path: '/about' },
+    { pathName: "projects", path: '/projects' },
+    { pathName: "services", path: '/services' },
+    { pathName: "contact", path: '/contact' },
+  ]
+  const { pathname } = useLocation();
   return (
     <header className='flex h-[10%] w-[100%] justify-between px-10 py-5 bg-skyBlue'>
       <div className='w-[30%]'>
@@ -9,10 +17,12 @@ function Header() {
         </a>
       </div>
       <nav className='w-[30%] flex items-center justify-between'>
-        <a href='/about'>About</a>
-        <a href='/projects'>Projects</a>
-        <a href='/services'>Services</a>
-        <a href='/contact'>Contact</a>
+        {paths.map((path, index) => (
+          <div key={index}>
+            <a href={path.path} className={pathname === path.path ? "border-b-[1px] border-darkBlue text-darkBlue capitalize" : "capitalize "}>{path.pathName}</a>
+          </div>
+        ))}
+
       </nav>
     </header>
   )
