@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../pages/Layout'
-import { FaFacebookSquare, FaGithub, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaFacebookSquare, FaGithub, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 function Contact() {
     const socials = [
@@ -23,6 +23,11 @@ function Contact() {
             name: "Youtube",
             link: "https://www.youtube.com/channel/UC87m2Jh03jx51_Ne468Udog",
             icon: <FaYoutube />
+        },
+        {
+            name: "Linkedln",
+            link: "https://www.linkedin.com/in/jenniferjude04/",
+            icon: <FaLinkedin />
         },
     ]
     return (

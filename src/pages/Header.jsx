@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom'
 
 function Header() {
   const paths = [
+    { pathName: "home", path: '/' },
     { pathName: "about", path: '/about' },
     { pathName: "projects", path: '/projects' },
     { pathName: "services", path: '/services' },
